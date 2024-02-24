@@ -1,0 +1,54 @@
+    .users-list-container {
+        margin: 20px;
+    }
+
+    .users-list-container h2 {
+        text-align: center;
+    }
+
+    .users-list-container table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .users-list-container th, .users-list-container td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    .users-list-container th {
+        background-color: #f2f2f2;
+    }
+
+    .users-list-container tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .users-list-container tr:hover {
+        background-color: #ddd;
+    }
+
+    .users-list-container td button {
+        margin: 0 5px;
+    }
+
+    .users-list-container td button a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .users-list-container td button a:hover {
+        text-decoration: underline;
+    }
+
+    .users-list-container a.create-user-link {
+        display: block;
+        margin-top: 20px;
+        text-decoration: none;
+        color: blue;
+    }
+
+    .users-list-container a.create-user-link:hover {
+        text-decoration: underline;
+    }
